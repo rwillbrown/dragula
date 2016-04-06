@@ -38,7 +38,7 @@ function dragula (initialContainers, options) {
   if (o.removeOnSpill === void 0) { o.removeOnSpill = false; }
   if (o.direction === void 0) { o.direction = 'vertical'; }
   if (o.ignoreInputTextSelection === void 0) { o.ignoreInputTextSelection = true; }
-  if (o.mirrorContainer === void 0) { o.mirrorContainer = doc; }
+  if (o.mirrorContainer === void 0) { o.mirrorContainer = doc.body; }
   if (o.scrollTriggerLeft === void 0) { o.scrollTriggerLeft = 70; }
   if (o.scrollTriggerRight === void 0) { o.scrollTriggerRight = 70; }
 
